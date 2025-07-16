@@ -20,7 +20,10 @@
           </ul>
         </nav>
         <a class="header__logo">
-          <img src="images/logo-black.svg" alt="лого в черном" />
+          <img class="header__logo-image" 
+               src="images/logo-black.svg" 
+               alt="лого в черном" 
+          />
         </a>
         <address class="adress header__address">
           <a class="phone" href="tel:+99995555555">+9 999 555 5555</a>
@@ -32,17 +35,23 @@
     <main>
       <section class="cover">
         <div class="cover__overlay">
-          <div class="cover__title">
-            <h1>
-              <span class="cover__title__top"> оно </span>
-              <span class="cover__title__center"> тебе </span>
-              <span class="cover__title__bottom"> надо </span>
-            </h1>
-          </div>
+          <h1 class="cover__title">
+            <span class="cover__title__top"> оно </span>
+            <span class="cover__title__center"> тебе </span>
+            <span class="cover__title__bottom"> надо </span>
+          </h1>
           <div class="cover__description">
-            <p>Аукцион вещей, вкоторые никто не верил</p>
-            <a> Сделать ставку </a>
-          </div>
+            <div class="cover__description__slogan">
+              <p >
+                Аукцион вещей, в которые никто не верил
+              </p>
+            </div>
+            <div>
+                <button class="cover__description__button"> 
+                Сделать ставку 
+            </button>
+            </div>
+            
         </div>
       </section>
       <section class="lots">
