@@ -1,1 +1,143 @@
-/* место для вашего кода */
+.header {
+  width: 100%;
+  height: 293px;
+  font-size: 18px;
+}
+
+.header_content {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px 50px;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: circle;
+  gap: 32px;
+}
+
+.header__links-list {
+  display: list-item;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  list-style-position: outside;
+}
+
+.header__links-list-item_no-bullit {
+  display: block;
+  text-decoration: none;
+}
+
+.header__logo {
+  width: 148px;
+  height: 105px;
+}
+
+.adress {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  font-style: normal;
+}
+
+.header__address {
+  justify-self: end;
+}
+
+.phone {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.email {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.location {
+  text-decoration: none;
+}
+
+.cover {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cover__overlay {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(0 0 1 / 0.6);
+  position: relative;
+}
+
+.cover__title {
+  padding: 165px 50px 207px 50px;
+}
+
+.cover__description {
+  align-self: self-end;
+  padding: 0 50px 50px 50px;
+  z-index: 1;
+}
+
+.lots {
+  height: 723px;
+  margin: 0 24px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 596px;
+  list-style-type: none;
+}
+
+.card {
+  width: 334px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.paint {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.about {
+  display: grid;
+}
+
+.logo_white_on_black {
+  width: 148px;
+  height: 114px;
+}
+
+.footer {
+  display: flex;
+}
+
+.socials {
+  width: 48px;
+  height: 48px;
+}
