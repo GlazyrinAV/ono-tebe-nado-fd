@@ -253,11 +253,11 @@
 }
 
 .about__description {
-  display: inline-block;
   grid-column: 2/3;
   grid-row: 2/3;
   margin: 0 0 24px 25px;
   font-size: 20px;
+  white-space: pre-line;
 }
 
 .about__logo {
