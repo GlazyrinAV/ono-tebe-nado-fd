@@ -7,6 +7,10 @@ a {
   font-size: 18px;
 }
 
+.menu_link {
+  text-decoration: underline;
+}
+
 .address {
   display: flex;
   flex-direction: column;
@@ -49,7 +53,6 @@ a {
 .header__links-list-item {
   display: list-item;
   line-height: 24px;
-  text-decoration: underline;
   list-style-position: outside;
 }
 
@@ -317,7 +320,6 @@ a {
 
 .footer__links-list-item {
   line-height: 21px;
-  text-decoration: underline;
   text-underline-offset: 4px;
   list-style-position: outside;
 }
